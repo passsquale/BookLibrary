@@ -56,7 +56,7 @@ public class BooksController {
             return "books/edit";
         }
         bookDAO.edit(book, book_id);
-        return "redirtct:/books";
+        return "redirect:/books";
     }
 
     @DeleteMapping("/{id}")
