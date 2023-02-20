@@ -10,9 +10,9 @@
   <input type="text" th:field="*{name}" id="name"/>
     <div style="color : red" th:field="${#fields.hasErrors('name')}" th:errors="*{name}">error</div>
   <br/>
-  <label for="birthYear">Enter year of birth: </label>
-  <input type="text" th:field="*{yearOfBirth}" id="birthYear"/>
-    <div style="color : red" th:field="${#fields.hasErrors('birthYear')}" th:errors="*{yearOfBirth}">error</div>
+  <label for="yearOfBirth">Enter year of birth: </label>
+  <input type="text" th:field="*{yearOfBirth}" id="yearOfBirth"/>
+    <div style="color : red" th:field="${#fields.hasErrors('yearOfBirth')}" th:errors="*{yearOfBirth}">error</div>
   <br/>
   <input type="submit" value="edit"/>
 
